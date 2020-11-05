@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_tcc_account" />
+        <module name="springcloud_tcc_good" />
+        <module name="springcloud_rocMq_bank2" />
+        <module name="springcloud_rocMq_bank1" />
+        <module name="springcloud_bestroc_bank2" />
+        <module name="springcloud_bestroc_bank1" />
+        <module name="springcloud_eureka" />
+        <module name="springcloud_tcc_order" />
+        <module name="springcloud_common" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,95 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: tcc-order-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seata_order?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: root
+    platform: all
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 30000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: select '1' from dual
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      max-open-prepared-statements: 20
+      max-pool-prepared-statement-per-connection-size: 20
+      filters: stat,log4j
+
+
+eureka:
+  client:
+    #表示是否将自己注册进EurekaServer默认为true。
+    register-with-eureka: true
+    #是否从EurekaServer抓取已有的注册信息，默认为true。单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
+    fetchRegistry: true
+    service-url:
+      #单机
+      defaultZone: http://localhost:7001/eureka
+
+
+
+  #配置mybatis
+mybatis:
+  type-aliases-package: com.tcc.model.entity
+  mapper-locations: classpath:/mapper/*
+  configuration:
+    map-underscore-to-camel-case: true
+
+
+#修改调用超时时间
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 10000
+        readTimeout: 10000
+
+
+hystrix:
+  command:
+    default:  #default全局有效，service id指定应用有效
+      execution:
+        timeout:
+          enabled: false
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000 #断路器超时时间，默认1000ms
+
+
+ribbon:
+  NFLoadBalancerRuleClassName:  com.netflix.loadbalancer.RandomRule
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+  MaxAutoRetries: 1 #同一台实例最大重试次数,不包括首次调用
+  MaxAutoRetriesNextServer: 1 #重试负载均衡其他的实例最大重试次数,不包括首次调用
+  OkToRetryOnAllOperations: false
+#hmi 分布式事务
+#org:
+#  dromara:
+#    hmily :
+#      serializer : kryo
+#      recoverDelayTime : 30
+#      retryMax : 30
+#      scheduledDelay : 30
+#      scheduledThreadMax :  10
+#      repositorySupport : db
+#      started: true
+#      hmilyDbConfig :
+#        driverClassName  : com.mysql.jdbc.Driver
+#        url :  jdbc:mysql://localhost:3306/hmily?useUnicode=true
+#        username : root
+#        password : root

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee5ba1fb-9767-400c-8315-17ce7811ce46" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/workanzhuang/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\workanzhuang\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jSABZ3iF5927r5dPwvwaFnF6gP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/百度网盘/咕泡/06套-高级进阶-基于支付系统场景的微服务架构的分布式事务解决方案/微服务源码文档/ppt/roncoo-pay-web-message" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\demo\springcloud_transcation\springcloud_bestroc_bank2\src\main\resources" />
+      <recent name="D:\demo\springcloud_transcation\springcloud_bestroc_bank1\src\main\resources" />
+      <recent name="D:\demo\springcloud_transcation\springcloud_rocMq_bank1\src\main\java\com\roc\bank\message" />
+      <recent name="D:\demo\springcloud_transcation\springcloud_rocMq_bank1\src\main\java\com\roc\bank\model" />
+      <recent name="D:\demo\springcloud_transcation\springcloud_rocMq_bank2\src\main\java\com\roc\bank2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tcc.model.mapper" />
+      <recent name="com.tcc.model.service" />
+      <recent name="com.tcc.model.entity" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.roc.bank.mapper" />
+      <recent name="com.roc.bank.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BankApplication">
+    <configuration name="Bank2Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.roc.bank2.controller.Bank2Controller" />
+      <module name="springcloud_rocMq_bank2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roc.bank2.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bank1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud_rocMq_bank1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roc.bank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.roc.bank.Bank1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud_rocMq_bank2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roc.bank2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.roc.bank2.BankApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EureKaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud_eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tx.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tx.model.EureKaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TccOrderAplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud_tcc_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tcc.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tcc.order.TccOrderAplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BankApplication" />
+        <item itemvalue="Spring Boot.Bank1Application" />
+        <item itemvalue="Spring Boot.EureKaApplication" />
+        <item itemvalue="Application.Bank2Controller" />
+        <item itemvalue="Spring Boot.TccOrderAplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee5ba1fb-9767-400c-8315-17ce7811ce46" name="Default Changelist" comment="" />
+      <created>1603786983803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603786983803</updated>
+      <workItem from="1603786986999" duration="225000" />
+      <workItem from="1603787466869" duration="13506000" />
+      <workItem from="1603844894301" duration="15642000" />
+      <workItem from="1603931488020" duration="6046000" />
+      <workItem from="1604019737836" duration="9584000" />
+      <workItem from="1604128018696" duration="1899000" />
+      <workItem from="1604146289516" duration="8624000" />
+      <workItem from="1604200674604" duration="851000" />
+      <workItem from="1604538393820" duration="333000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1603796866470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1603796866469" />
+    <state x="223" y="70" width="1155" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604157195668">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" width="1155" height="683" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604157195668" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1603892290529">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1603892290529" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1604146379718">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604146379718" />
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state width="1493" height="220" key="GridCell.Tab.1.bottom" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state width="1493" height="220" key="GridCell.Tab.1.center" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state width="1493" height="220" key="GridCell.Tab.1.left" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state width="1493" height="220" key="GridCell.Tab.1.right" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state width="1493" height="220" key="GridCell.Tab.2.bottom" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state width="1493" height="220" key="GridCell.Tab.2.center" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state width="1493" height="220" key="GridCell.Tab.2.left" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state width="1493" height="220" key="GridCell.Tab.2.right" timestamp="1604202523305">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="220" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1604202523305" />
+    <state x="272" y="57" key="SettingsEditor" timestamp="1603798903433">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603798903433" />
+    <state x="239" y="97" key="new project wizard" timestamp="1604019882619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="239" y="97" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1604019882619" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1603794883309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603794883309" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springcloud_rocMq_bank2/src/main/java/com/roc/bank2/service/AccountService.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springcloud_rocMq_bank2/src/main/java/com/roc/bank2/massage/TxmsgConsumer.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springcloud_rocMq_bank1/src/main/java/com/roc/bank/message/ProducerTxmsgListener.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springcloud_rocMq_bank1/src/main/java/com/roc/bank/message/ProducerTxmsgListener.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
