@@ -17,7 +17,7 @@ public class TxmsgConsumer implements RocketMQListener<String> {
     @Autowired
     AccountService accountService;
 
-    //接收消息
+    //接收消息 如果执行失败 消费方会一直消费消息
     @Override
     public void onMessage(String message) {
         log.info("开始消费消息:{}",message);

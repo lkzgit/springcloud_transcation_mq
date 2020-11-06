@@ -10,13 +10,19 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RequestMapping("pay")
+@RequestMapping("/pay")
 @RestController
 public class BestController {
 
 
     @Autowired
     AccountPayService accountPayService;
+
+
+    @GetMapping(value = "/test")
+    public String test(){
+     return "kk";
+    }
 
     //充值
     @GetMapping(value = "/paydo")

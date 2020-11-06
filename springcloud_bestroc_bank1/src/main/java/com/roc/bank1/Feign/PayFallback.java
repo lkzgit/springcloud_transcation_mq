@@ -11,4 +11,9 @@ public class PayFallback implements PayClient {
         accountPay.setResult("fail");
         return accountPay;
     }
+
+    @Override
+    public String test() {
+        return "null";
+    }
 }

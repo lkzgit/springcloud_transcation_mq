@@ -39,7 +39,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka
 
 rocketmq:
-  name-server: 127.0.0.1:9876
+  name-server: 129.211.164.41:9876
   producer:
     group: bestProducer_bank1
 

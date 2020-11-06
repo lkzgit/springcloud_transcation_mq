@@ -22,6 +22,7 @@ public class NotifyMsgListener implements RocketMQListener<AccountPay> {
     @Override
     public void onMessage(AccountPay accountPay) {
         log.info("接收到消息：{}", JSON.toJSONString(accountPay));
+        //账户系统接收消息就 不同调用主动查询
         if("success".equals(accountPay.getResult())){
             //更新账户金额
             AccountChangeEvent accountChangeEvent = new AccountChangeEvent();

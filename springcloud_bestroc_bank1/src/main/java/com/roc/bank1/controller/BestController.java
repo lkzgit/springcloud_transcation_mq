@@ -1,6 +1,7 @@
 package com.roc.bank1.controller;
 
 
+import com.roc.bank1.Feign.PayClient;
 import com.roc.bank1.entity.AccountPay;
 import com.roc.bank1.service.AccountInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,12 +17,19 @@ public class BestController {
 
     @Autowired
     private AccountInfoService accountInfoService;
+    @Autowired
+    PayClient payClient;
 
     //主动查询充值结果
     @GetMapping(value = "/payresult/{txNo}")
     public AccountPay result(@PathVariable("txNo") String txNo){
         AccountPay accountPay = accountInfoService.queryPayResult(txNo);
         return accountPay;
+    }
+
+    @GetMapping(value = "/test")
+    public String test(){
+       return payClient.test();
     }
 
 }

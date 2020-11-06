@@ -38,7 +38,7 @@ public class AccountService {
         accountMapper.updateAccountBalance(accountChangeEvent.getAccountNo(),accountChangeEvent.getAmount());
         //添加事务记录，用于幂等
         accountMapper.addTx(accountChangeEvent.getTxNo());
-        if(accountChangeEvent.getAmount() == 4){
+        if(accountChangeEvent.getAmount() == 5){
             throw new RuntimeException("人为制造异常");
         }
     }
