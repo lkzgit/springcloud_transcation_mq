@@ -18,6 +18,8 @@
         <module>springcloud_rocMq_bank2</module>
         <module>springcloud_bestroc_bank1</module>
         <module>springcloud_bestroc_bank2</module>
+        <module>springcloud_seata</module>
+
     </modules>
 
 
