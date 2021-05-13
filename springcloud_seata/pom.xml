@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <description>芋道源码学习seata事务</description>
     <artifactId>springcloud_seata</artifactId>
     <packaging>pom</packaging>
     <modules>
@@ -16,6 +16,7 @@
         <module>seata-account</module>
         <module>seata-storage</module>
     </modules>
+
 
 
 </project>
