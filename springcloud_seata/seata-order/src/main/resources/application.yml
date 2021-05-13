@@ -16,21 +16,21 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-    alibaba:
-      seata:
-        tx-service-group:
-          my_test_tx_group
+#    alibaba:
+#      seata:
+#        tx-service-group:
+#          my_test_tx_group
 
 # Seata 配置项，对应 SeataProperties 类
 #spring cloud alibaba 2.1.4 之后支持yml中配置seata属性，可以用来替换registry.conf文件
-#seata:
-#  application-id: ${spring.application.name} # Seata 应用编号，默认为 ${spring.application.name}
-#  tx-service-group: ${spring.application.name}-group # Seata 事务组编号，用于 TC 集群名
-#  # Seata 服务配置项，对应 ServiceProperties 类
-#  service:
-#    # 虚拟组和分组的映射
-#    vgroup-mapping:
-#      order-service-group: default
-#    grouplist:
-#      default: 127.0.0.1:8091
+seata:
+  application-id: ${spring.application.name} # Seata 应用编号，默认为 ${spring.application.name}
+  tx-service-group: ${spring.application.name}-group # Seata 事务组编号，用于 TC 集群名
+  # Seata 服务配置项，对应 ServiceProperties 类
+  service:
+    # 虚拟组和分组的映射
+    vgroup-mapping:
+      order-service-group: default
+    grouplist:
+      default: 127.0.0.1:8091
 

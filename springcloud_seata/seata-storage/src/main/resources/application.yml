@@ -16,19 +16,19 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-    alibaba:
-      seata:
-        tx-service-group:
-          my_test_tx_group # seata 服务事务分组
+#    alibaba:
+#      seata:
+#        tx-service-group:
+#          my_test_tx_group # seata 服务事务分组
 
 # Seata 配置项，对应 SeataProperties 类
-#seata:
-#  application-id: ${spring.application.name} # Seata 应用编号，默认为 ${spring.application.name}
-#  tx-service-group: ${spring.application.name}-group # Seata 事务组编号，用于 TC 集群名
-#  # Seata 服务配置项，对应 ServiceProperties 类
-#  service:
-#    # 虚拟组和分组的映射
-#    vgroup-mapping:
-#      product-service-group: default
-#    grouplist:
-#      default: 127.0.0.1:8091
+seata:
+  application-id: ${spring.application.name} # Seata 应用编号，默认为 ${spring.application.name}
+  tx-service-group: ${spring.application.name}-group # Seata 事务组编号，用于 TC 集群名
+  # Seata 服务配置项，对应 ServiceProperties 类
+  service:
+    # 虚拟组和分组的映射
+    vgroup-mapping:
+      product-service-group: default
+    grouplist:
+      default: 127.0.0.1:8091
